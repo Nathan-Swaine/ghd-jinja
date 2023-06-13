@@ -5,7 +5,109 @@ app = Flask(__name__)
 @app.route("/")
 def hello_world():
     return """
-       <table class="sm-w-full" cellpadding="0" cellspacing="0" role="presentation" style="width: 800px; background: #000000;">
+    <div role="article" aria-roledescription="email" aria-label="" lang="en">
+    <table style="font-family: Helvetica, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+        <tr>
+            <td align="center" style="background: #000000;">
+                <table class="sm-w-full" style="width: 800px; background: #000000;" cellpadding="0" cellspacing="0" role="presentation">
+                    <tr>
+                        <td align="center" valign="top">
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%" align="center" bgcolor="#000000">
+                                <!--[if !mso]><!-- -->
+                                <tr>
+                                    <td height="40" align="center" valign="middle">
+                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#000000"><?php
+                                            if (isset($preheader)) {
+                                                ?>
+                                                    <tr>
+                                                        <td width="0" height="0" align="center" style="display:none !important;visibility:hidden;mso-hide:all;font-size:1px;color:#000000;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+                                                            <?php
+                                                                echo $preheader . "&nbsp;" . "&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;";
+                                                            ?>
+                                                        </td>
+                                                    </tr>
+                                                <?php
+                                                }
+                                            ?>
+                                            </table>
+                                        </td>
+                                </tr>
+                                    <!--<![endif]-->
+                                <tr>
+                                    <td align="center" valign="middle">
+                                        <table border="0" cellpadding="0" width="100%" cellspacing="0"  bgcolor="#000000" style="padding-bottom: 30px;">
+                                            <tr>
+                                                <td align="center" valign="middle">
+                                                    <table border="0" cellpadding="0" width="100%" cellspacing="0"  bgcolor="#000000">
+                                                        <tr>
+                                                            <td align="right" class="paragraph fine-print" style="color: #999 !important; -webkit-font-smoothing: antialiased;-moz-font-smoothing: antialiased;-o-font-smoothing: antialiased; font-size: 13px !important; line-height: 18px !important; padding-right: 25px;">
+                                                                Can't read this email? <a href="&&&" title="View email online"><b style="-webkit-font-smoothing: antialiased;-moz-font-smoothing: antialiased;-o-font-smoothing: antialiased; font-size: 13px !important; line-height: 18px !important; color:#999; text-decoration: underline;">View it online</b>
+                                                            </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" align="center">
+                            <table class="sm-w-full" style="width: 800px; background: #000000;" cellpadding="0" cellspacing="0" role="presentation">
+                                <tr>
+                                    <td class="" width="80%" align="center" style="padding-bottom: 30px;">
+                                        <img src="http://26ffb5095c072cf03267-e6198fb5b35e7ff13409c8fbe7eef8a1.r85.cf3.rackcdn.com/core/header-2021/header-logo.jpg" width="25%" style="max-width: 120px!important;" alt="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top" align="center" width="100%" style="padding-bottom:10px;" >
+                                        <table style="width: auto; background: #000000;" cellpadding="0" cellspacing="0" role="presentation" style="color: #ffffff; font-family: Helvetica, Arial, sans-serif; text-align: center;">
+                                            <tr>
+                                                <td class="header-buttons" valign="top" align="center" style="color: #ffffff; font-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; padding-right: 15px;">
+                                                    <a href="https://www.ghdhair.com/hair-straighteners-c" style="text-decoration: none; color: #ffffff; font-weight: bold;">
+                                                        <font color="#ffffff" style="color: #ffffff !important; text-decoration: none !important;">
+                                                            <strong style="font-weight: bold; text-decoration: none;">HAIR STRAIGHTENERS</strong>
+                                                        </font>
+                                                    </a>
+                                                </td>
+                                                <td class="header-buttons" valign="top" align="center" style="color: #ffffff; font-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; padding-right: 15px;">
+                                                    <a href="https://www.ghdhair.com/hot-air-stylers-c" style="text-decoration: none; color: #ffffff; font-weight: bold;">
+                                                        <font color="#ffffff" style="color: #ffffff !important; text-decoration: none !important;">
+                                                            <strong style="font-weight: bold; text-decoration: none;">HOT AIR STYLERS</strong>
+                                                        </font>
+                                                    </a>
+                                                </td>
+                                                <td class="header-buttons" valign="top" align="center" style="color: #ffffff; font-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; padding-right: 15px;">
+                                                    <a href="https://www.ghdhair.com/curling-wands-and-tongs-c" style="text-decoration: none; color: #ffffff; font-weight: bold;">
+                                                    <font color="#ffffff" style="color: #ffffff !important; text-decoration: none !important;">
+                                                            <strong style="font-weight: bold; text-decoration: none;">HAIR CURLERS</strong>
+                                                        </font>
+                                                    </a>
+                                                </td>
+                                                <td class="header-buttons-last" valign="top" align="center" style="color: #ffffff; font-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; padding-right: 15px;">
+                                                    <a href="https://www.ghdhair.com/hair-dryers-c" style="text-decoration: none; color: #ffffff; font-weight: bold;">
+                                                        <font color="#ffffff" style="color: #ffffff !important; text-decoration: none !important;">
+                                                            <strong style="font-weight: bold; text-decoration: none;">HAIR DRYERS</strong>
+                                                        </font>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <table style="font-family: Helvetica, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; width: 100%;" cellpadding="0" align="center" bgcolor="#000000"cellspacing="0" role="presentation">
+        <tr>
+            <td valign="top" align="center">
+        <table class="sm-w-full" cellpadding="0" cellspacing="0" role="presentation" style="width: 800px; background: #000000;">
             <tr>
                 <td cellpadding="0" width="100%" cellspacing="0" dir="ltr" valign="top" align="center" bgcolor="#000000" class=" sm-w-full inline-block  pb-20 " style="background-color: #000000; padding-bottom:30px; ">
                     <a href="https://www.ghdhair.com/curling-wands-and-tongs-c"> <img src="http://c94df97feba3ed270b40-dccdaa2c75856b59b01c3723d5ef3b50.r0.cf3.rackcdn.com/promo_2023/15-curve/uk-1.jpg" alt="" valign="top" width="800" height="518" border="0" class="always-full-width" style="width:100%;height:auto;min-width:auto;display: block; min-width: 800px; width: 800px;"></a>
@@ -144,4 +246,26 @@ def hello_world():
                     </table>
                 </td>
             </tr>
-        </table>"""
+        </table>
+
+
+        <tr>
+            <td align="center" style="background-color: #000000; padding-top: 0; padding-bottom: 0;">
+                <table class="sm-w-full" style="width: 800px; background: #000000; text-align: center; color: #d3d0d0;" cellpadding="0" cellspacing="0" role="presentation">
+                    <tr>
+                        <td valign="top" align="center">
+                            <table width="90%" align="center" style="background: #000000;" cellpadding="0" cellspacing="0" role="presentation">
+                                <tr>
+                                    <td class="paragraph fine-print" align="center"  style="padding-top: 20px; padding-bottom: 20px; -webkit-font-smoothing: antialiased;-moz-font-smoothing: antialiased;-o-font-smoothing: antialiased; font-size: 13px !important; line-height: 18px !important;">
+                                        <a href="http://link.ghdhair.com/u/register.php?CID=285063194&f=5754&p=2&a=r&SID=&el=&llid=&counted=&c=&inp_3=$pers_3$&endlink=https://www.ghdhair.com/unsubscribe" style="color:#fff; padding-bottom: 20px;">Click here to Unsubscribe</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+"""
